@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #4caf50;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+  background: #4caf50;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: #388e3c;
+}
+
+.section {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.section h2 {
+  color: #4caf50;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.section p, .section ul {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.section ul {
+  padding-left: 20px;
+  list-style-type: circle;
+}
